@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_country"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/tv_country_name"
+        app:layout_constraintTop_toTopOf="@id/img_country"
+        app:layout_constraintStart_toEndOf="@id/img_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continent Name"
+        android:layout_marginStart="20dp"
+        android:textSize="32sp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

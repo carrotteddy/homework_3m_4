@@ -39,8 +39,7 @@ public class CountryFragment extends Fragment {
             CountryAdapter adapter = new CountryAdapter(countryArrayList, getContext());
             recyclerView.setAdapter(adapter);
         } else {
-            Log.d("Dan", "-1 ");
-        }
+            Log.d("Dan", "-1 ");        }
 
     }
 

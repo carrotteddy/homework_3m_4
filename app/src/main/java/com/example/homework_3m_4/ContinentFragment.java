@@ -62,7 +62,7 @@ public class ContinentFragment extends Fragment implements OnItemClickListener {
         Bundle bundle = new Bundle();
         bundle.putInt("continent", position);
         countryFragment.setArguments(bundle);
-        transaction.replace(R.id.container, countryFragment).addToBackStack(null).commit();
+        transaction.replace(R.id.container, countryFragment).addToBackStack(null).;
         countryFragment.loadData(position);
     }
 }
